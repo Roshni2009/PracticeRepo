@@ -1,0 +1,18 @@
+{
+  "id": 14,
+  "category": {
+    "id": 76543,
+    "name": "Chinnari"
+  },
+  "name": "Muddu",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 87956,
+      "name": "Kanda"
+    }
+  ],
+  "status": "available"
+}
