@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" >
+    <test name="GoogleSearch" >
+        <parameter name="Name" value="Roshni"></parameter>
+        <parameter name="Pwd" value="12345"></parameter>
+        <parameter name="StatusCode" value="200"></parameter>
+        <classes>
+            <class name="may19.Test_004">
+                    <methods>
+                        <exclude name="Facebook_Testing"/>
+                    </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
